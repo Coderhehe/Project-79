@@ -24,13 +24,13 @@
         <div  class="img_div"> 
             <img class="img-responsive"  src="images/pizza.png">
         </div>
-        <center>
-      <div id="menu_div">
-          <button onclick="showmenup()">Show Menu </button>
+        
+      <div class="menu_div">
+          <button onclick="showmenup()" id="menu_list">Show Menu </button>
         <div id="display_menu"></div>
        
       </div>
-      </center style="text-algin:center;">
+      
 
     </div>
     
@@ -39,9 +39,11 @@
             <input id="add_item" placeholder="Type here to add toppings?"/></br>
             <button id="add_toppings" onclick="add_item()" >Recommend a new Pizza</button>
         </div>
-        
+        <div class="block2"> 
+            <div id="display_addedmenu"></div>
+        </div>
     </div>
-     <!-- Add display_addedmenu div here! -->
+      
     <div>
         <img class="img-responsive"  src="images/topping.png">
     </div>
