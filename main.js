@@ -20,7 +20,7 @@ function add_item() {
     pmarray.sort();
     htmldata= "<section class='cards'>"
     for ( var i = 0; i < pmarray.length; i++) {
-        htmldata=htmldata+"<div class='cards'>"+ "<img src='images/pizzaImg.png'>"+pmarray[i] + "</div>"
+        htmldata=htmldata+"<div class='card'>"+ "<img src='pizzaImg.png'>"+pmarray[i] + "</div>"
         
     }
     htmldata=htmldata+"</section>" 
